@@ -13,7 +13,7 @@ class App < Sinatra::Base
   end
 
   post '/checkout' do
-    "<h1> #{params[:item]} </h1>" 
+    "<h1> #{params[:item]} </h1>"
   end
 
 end
