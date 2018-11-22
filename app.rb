@@ -13,8 +13,7 @@ class App < Sinatra::Base
   end
 
   post '/checkout' do
-    #"<h1> #{params[:item]} </h1>"
-    erb :index
+    "<h1> #{params[:item]} </h1>"
   end
 
 end
