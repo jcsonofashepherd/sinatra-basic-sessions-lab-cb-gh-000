@@ -14,6 +14,8 @@ class App < Sinatra::Base
 
   post '/checkout' do
     "<h1> #{params[:item]} </h1>"
+    session[:item] = params[:item]
+    @session = session
   end
 
 end
