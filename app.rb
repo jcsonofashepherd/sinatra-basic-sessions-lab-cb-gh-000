@@ -13,7 +13,7 @@ class App < Sinatra::Base
   end
 
   post '/checkout' do
-
+    erb '<h1> <%= param[:item] %> </h1>'
   end
 
 end
